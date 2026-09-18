@@ -33,6 +33,7 @@ public class Calculator {
             System.out.println("잘못된 연산자입니다");
             return 0;
         }
+        System.out.println("결과: "+result);
         arrayList.add(result);
         return result;
     }
