@@ -44,7 +44,7 @@ public class calculator {
                 }
                 System.out.println("결과: "+result);
             }
-            System.out.println("더 계산하시겠습니까?(exit 입력 시 종료): ");
+            System.out.print("더 계산하시겠습니까?(exit 입력 시 종료): ");
             repeat = sc.nextLine();
             if(repeat.equals("exit")){
                 System.out.println("프로그램을 종료합니다");
