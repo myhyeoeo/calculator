@@ -31,6 +31,7 @@ public class Calculator {
         }
         else{
             System.out.println("잘못된 연산자입니다");
+            return 0;
         }
         arrayList.add(result);
         return result;
